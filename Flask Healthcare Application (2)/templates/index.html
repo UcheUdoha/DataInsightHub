@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Survey Tool</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <h1>Income Spending Survey</h1>
+  <form method="POST">
+    <label for="age">Age:</label><br>
+    <input type="text" id="age" name="age"><br><br>
+    
+    <label for="gender">Gender:</label><br>
+    <input type="text" id="gender" name="gender"><br><br>
+    
+    <label for="total_income">Total Income:</label><br>
+    <input type="text" id="total_income" name="total_income"><br><br>
+    
+    <h3>Expenses:</h3>
+    <label for="utilities">Utilities:</label><br>
+    <input type="text" id="utilities" name="utilities"><br><br>
+    
+    <label for="entertainment">Entertainment:</label><br>
+    <input type="text" id="entertainment" name="entertainment"><br><br>
+    
+    <label for="school_fees">School Fees:</label><br>
+    <input type="text" id="school_fees" name="school_fees"><br><br>
+    
+    <label for="shopping">Shopping:</label><br>
+    <input type="text" id="shopping" name="shopping"><br><br>
+    
+    <label for="healthcare">Healthcare:</label><br>
+    <input type="text" id="healthcare" name="healthcare"><br><br>
+    
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
